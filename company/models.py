@@ -1,4 +1,12 @@
+"""Module has a function that prints the name of my site"""
+
 from django.db import models
+
+
+def print_site_name():
+    site = "bobbyhadz.com"
+
+    print(site)
 
 
 class Filial(models.Model):
